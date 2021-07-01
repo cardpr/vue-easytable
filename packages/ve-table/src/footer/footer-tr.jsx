@@ -222,7 +222,7 @@ export default {
             attrs: {
                 [COMPS_CUSTOM_ATTRS.BODY_ROW_KEY]: this.currentRowKey
             },
-            nativeOn: events,
+            // nativeOn: events,
             on: {
                 "on-dom-resize-change": this.trHeightChange
             }

@@ -299,7 +299,7 @@ export default {
                         );
                     }
                 },
-                nativeOn: events
+                // nativeOn: events
             };
 
             result = (
@@ -313,7 +313,7 @@ export default {
                 attrs: {
                     [COMPS_CUSTOM_ATTRS.BODY_ROW_KEY]: this.currentRowKey
                 },
-                on: events
+                // on: events
             };
 
             result = <tr {...props}>{getTdContent()}</tr>;

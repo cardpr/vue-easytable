@@ -541,7 +541,7 @@ export default {
                 rowspan,
                 colspan
             },
-            on: events
+            // on: events
         };
 
         return (
