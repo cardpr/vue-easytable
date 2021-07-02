@@ -197,7 +197,9 @@ export default {
         },
 
         hideDropDown() {
-            this.$emit(EMIT_EVENTS.VISIBLE_CHANGE, false);
+            if(this.isDropdownVisible) {
+                this.$emit(EMIT_EVENTS.VISIBLE_CHANGE, false);
+            }
 
             if (!this.isControlled) {
                 setTimeout(() => {
