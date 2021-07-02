@@ -484,9 +484,9 @@ export default {
                     }
                 }
 
-                if (hasPreparedColsWidths) {
-                    this.$emit(EMIT_EVENTS.BODY_TD_WIDTH_CHANGE, colsWidths);
-                }
+                // if (hasPreparedColsWidths) {
+                //     this.$emit(EMIT_EVENTS.BODY_TD_WIDTH_CHANGE, colsWidths);
+                // }
             }
         },
 

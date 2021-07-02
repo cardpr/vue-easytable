@@ -16,14 +16,14 @@ export default {
     },
     methods: {
         resizeListener(contentRect) {
-            const { left, top, width, height } = contentRect;
-            this.$emit("on-dom-resize-change", {
-                key: this.id,
-                left,
-                top,
-                width,
-                height
-            });
+            // const { left, top, width, height } = contentRect;
+            // this.$emit("on-dom-resize-change", {
+            //     key: this.id,
+            //     left,
+            //     top,
+            //     width,
+            //     height
+            // });
         }
     },
     mounted() {
