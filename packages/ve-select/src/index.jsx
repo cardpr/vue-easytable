@@ -33,7 +33,7 @@ export default {
         // 占位符
         placeholder: {
             type: String,
-            default: "请选择",
+            default: "—",
             validator: function(value) {
                 return value.length > 0;
             }
